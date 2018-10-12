@@ -5,10 +5,20 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 const { PORT, CLIENT_ORIGIN } = require('./config');
-const { dbConnect } = require('./db-mongoose');
+// const { dbConnect } = require('./db-mongoose');
 // const {dbConnect} = require('./db-knex');
 
 const app = express();
+
+const cat = {
+  imageURL: 'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg',
+  imageDescription: 'Orange bengal cat with black stripes lounging on concrete.',
+  name: 'Fluffy',
+  sex: 'Female',
+  age: 2,
+  breed: 'Bengal',
+  story: 'Thrown on the street'
+}
 
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
@@ -21,6 +31,11 @@ app.use(
     origin: CLIENT_ORIGIN
   })
 );
+app.get('/api/cat', (req, res) => {
+  return cat;
+});
+
+app.delete('/api/cat')
 
 function runServer(port = PORT) {
   const server = app
