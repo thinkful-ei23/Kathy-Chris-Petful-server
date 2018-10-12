@@ -7,5 +7,41 @@
     "age": 2,
     "breed": "Bengal",
     "story": "Thrown on the street"
+  },
+  {
+    "imageURL": "https://cdn.pixabay.com/photo/2015/11/16/22/14/cat-1046544__480.jpg",
+    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "name": "Fluffy",
+    "sex": "Female",
+    "age": 1,
+    "breed": "Mix",
+    "story": "Thrown on the street"
+  },
+  {
+    "imageURL": "https://cdn.pixabay.com/photo/2018/01/28/12/37/cat-3113513__480.jpg",
+    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "name": "Fluffy",
+    "sex": "Female",
+    "age": 4,
+    "breed": "Tabby",
+    "story": "Thrown on the street"
+  },
+  {
+    "imageURL": "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__480.jpg",
+    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "name": "Fluffy",
+    "sex": "Male",
+    "age": 3,
+    "breed": "Main Coon",
+    "story": "Owner moved into nursing home"
+  },
+  {
+    "imageURL": "https://cdn.pixabay.com/photo/2016/01/20/13/05/cat-1151519__480.jpg",
+    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "name": "Snowball",
+    "sex": "Male",
+    "age": 5,
+    "breed": "Bengal",
+    "story": "Found after a hurricane"
   }
 ]
