@@ -33,10 +33,11 @@ app.get('/api/dog', (req, res, next) => {
 });
 // delete
 app.delete('/api/cat', (req, res, next) => {
-  res.send(cats.shift());
+  res.send(cats.shift()).sendStatus(204);
 });
 app.delete('/api/dog', (req, res, next) => {
-  res.send(dogs.shift());
+  res.send(dogs.shift()).sendStatus(204);
+
 });
 
 function runServer(port = PORT) {
