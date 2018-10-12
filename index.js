@@ -25,13 +25,19 @@ app.use(
 );
 // GET Cat info
 app.get('/api/cat', (req, res, next) => {
-  res.json(cats);
+  res.json(cats[0]);
 });
 // GET Dog info
 app.get('/api/dog', (req, res, next) => {
-  res.json(dogs);
+  res.json(dogs[0]);
 });
-
+// delete
+app.delete('/api/cat', (req, res, next) => {
+  res.send(cats.shift());
+});
+app.delete('/api/dog', (req, res, next) => {
+  res.send(dogs.shift());
+});
 
 function runServer(port = PORT) {
   const server = app

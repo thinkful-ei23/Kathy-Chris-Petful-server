@@ -1,11 +1,29 @@
 [
   {
-    "imageURL": "http: //www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
+    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
     "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
     "name": "Zeus",
     "sex": "Male",
     "age": 3,
     "breed": "Golden Retriever",
     "story": "Owner Passed away"
+  },
+  {
+    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
+    "imageDescription": "Mean looking Doberman but very friendly and energetic",
+    "name": "Hades",
+    "sex": "Male",
+    "age": 1,
+    "breed": "Doberman",
+    "story": "Owner couldnt handle dog"
+  },
+  {
+    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
+    "imageDescription": "Small white dog",
+    "name": "Tin Tin",
+    "sex": "Male",
+    "age": 2,
+    "breed": "Unknown",
+    "story": "Unknown"
   }
 ]
